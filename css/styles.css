@@ -5,17 +5,18 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-body{
+html, body{
     background-color: rgb(207,215,240);
     display: flex;
     justify-content: center;
-    margin: 100px;
+    align-items: center;
+    height: 100%;
 }
 
 main{
-    width: 1000px;
+    width: 80%;
     background-color: rgb(255,255,255);
-    padding: 50px;
+    padding: 80px 50px;
     border-radius: 12px;
 } 
 
@@ -49,8 +50,8 @@ main{
 }
 
 .servicio{
-    width: 250px;
-    margin: 20px 30px;
+    width: 25%;
+    margin: 20px 40px;
 }
 
 .servicio-title{
